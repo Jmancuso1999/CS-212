@@ -31,17 +31,6 @@ public class EditMenuHandler implements ActionListener
                   //gui is an object of Date212GUI which allows access to the addingDate method
                   //Method adds the inputted date to BOTH the TreeMap and Date212UnsortedList
                   gui.addingDate(inputDate);
-
-                  /*
-
-                     FIX:
-                        -MAKE SURE TO SORT THE RIGHT SIDE OF THE GUI BY ----> TreeMap ---> Figure out what exactly is tree map and then solve on my own
-                        -FIGURE OUT WHY "isValid" is showing a red text.
-
-
-                  
-                  */
-
             }
          }
          catch(Date212Exception e) {
