@@ -17,10 +17,10 @@ public class SortedDate212List extends Date212List
 		//Iterator needed so we can start from the BEGINNING of the LinkedList, once we have the first node, the rest of the list is connected. 
 		Date212Node iterator = head; 
 
-		//what this for loop is doing is it's moving i forward UNTIL we find the spot we are looking for in the node. 
+		//Iterates through the sorted dates to find the correct position to input the new date
 		for(iterator = head; iterator.next != null && n.data.compareTo(iterator.next.data) > 0; iterator = iterator.next) //We are checking until we reached the node we are looking for.
 		{
-         //do nothing
+         		//do nothing
 		}
 
 		//Makes sure the linkedlist from the right of this node is not broken off.
